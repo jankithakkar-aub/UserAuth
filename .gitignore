@@ -1,0 +1,36 @@
+# Node.js / Express
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Debug
+.vscode/
+.idea/
+
+# PostgreSQL / Database related
+*.sql
+*.sqlite
+*.db
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# MacOS specific
+*.swp
+
+# IDE or editor files
+.vscode/
+.idea/
+
+# Build and distribution files
+dist/
+build/
