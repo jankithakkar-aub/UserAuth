@@ -5,7 +5,7 @@ const { ValidationError } = require("../utils/errorHandler");
 exports.registerUser = async (username, email) => {
   //Validate username
   console.log("username from service", username);
-  if (username.includes(" ") || !/^[a-zA-Z0-9_]+$/.test(username)) {
+  if (!/^[a-zA-Z0-9_]+$/.test(username)) {
     throw new ValidationError(
       "Username cannot contain spaces or special characters"
     );

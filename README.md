@@ -176,7 +176,6 @@ This project uses the following technologies:
 - **Node.js** — JavaScript runtime for building scalable server-side applications.
 - **Express** — Web framework for Node.js for building the API.
 - **PostgreSQL** — A powerful, open-source relational database management system.
-- **Sequelize** — ORM to interact with the PostgreSQL database.
 - **express-validator** — Middleware for validating and sanitizing request data.
 - **dotenv** — To manage environment variables for sensitive data.
 - **JWT (JSON Web Tokens)** — For user authentication and secure token-based sessions.
