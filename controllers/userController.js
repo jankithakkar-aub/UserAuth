@@ -18,7 +18,7 @@ exports.registerUser = async (req, res) => {
     });
   } catch (error) {
     if (error instanceof ValidationError) {
-      res.status(error.statusCode).json({ error: error.message });
+      res.status(error.statusCode).json({ error: error.message});
     } else {
       res.status(500).json({ message: "Internal server error" });
     }
@@ -38,8 +38,7 @@ exports.loginUser = async (req, res) => {
       user: {
         username: loginUser.username,
         email: loginUser.email,
-      },
-      token: loginUser.token, // Return the JWT token
+      }
     });
   } catch (error) {
     if (error instanceof ValidationError) {
